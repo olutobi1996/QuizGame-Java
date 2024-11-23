@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.quiz-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    padding: 15px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-box{
+    width: 750px;
+    min-height: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: rgb(red, green, blue) 0, 4, 12px;
+    border-radius: 60px;
+}
